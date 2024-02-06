@@ -96,9 +96,10 @@ public class Gambler {
   public static int simulateThrow() {
 
     // TODO
-    //Random randomNumber = new Random();
+    Random randomNumber = new Random();
     int randomNum = ThreadLocalRandom.current().nextInt(2, 12 + 1);
-    //return randomNumber.nextInt(13);
+    return randomNumber.nextInt(13);
     return randomNum;
+    //some random change
   }
 }
