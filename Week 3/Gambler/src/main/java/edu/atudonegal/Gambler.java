@@ -100,6 +100,6 @@ public class Gambler {
     int randomNum = ThreadLocalRandom.current().nextInt(2, 12 + 1);
     return randomNumber.nextInt(13);
     return randomNum;
-    //some random change
+    //sdvsdsvsfvvsdc
   }
 }
